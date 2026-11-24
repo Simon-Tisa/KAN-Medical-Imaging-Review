@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this evidence database, interactive toolkit, or taxonomy in your research, please cite our Computerized Medical Imaging and Graphics (2026) review paper."
+title: "A review of Kolmogorov–Arnold networks for medical image analysis"
+type: software
+authors:
+  - given-names: Jieyun
+    family-names: Bai
+    email: baijieyun@jnu.edu.cn
+    affiliation: "College of Information Science and Technology, Jinan University, Guangzhou, China"
+  - given-names: Zhongguo
+    family-names: Cai
+    email: cai30586@gmail.com
+    affiliation: "College of Information Science and Technology, Jinan University, Guangzhou, China"
+  - given-names: Rongshun
+    family-names: Yang
+    affiliation: "The Sixth Affiliated Hospital of Jinan University, Dongguan, China"
+  - given-names: Karim
+    family-names: Lekadir
+    email: karim.lekadir@ub.edu
+    affiliation: "ICREA & Artificial Intelligence in Medicine Lab (BCN-AIM), Universitat de Barcelona, Spain"
+  - given-names: Shuo
+    family-names: Li
+    email: shuo.li11@case.edu
+    affiliation: "School of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA"
+preferred-citation:
+  type: article
+  title: "A review of Kolmogorov–Arnold networks for medical image analysis"
+  authors:
+    - given-names: Jieyun
+      family-names: Bai
+    - given-names: Zhongguo
+      family-names: Cai
+    - given-names: Rongshun
+      family-names: Yang
+    - given-names: Karim
+      family-names: Lekadir
+    - given-names: Shuo
+      family-names: Li
+  journal: "Computerized Medical Imaging and Graphics"
+  volume: 136
+  start: 102827
+  year: 2026
+  issn: "0895-6111"
+  doi: "10.1016/j.compmedimag.2026.102827"
+  url: "https://doi.org/10.1016/j.compmedimag.2026.102827"
+keywords:
+  - Kolmogorov-Arnold networks
+  - medical image analysis
+  - hybrid architectures
+  - model evaluation
+  - interpretability
+  - reproducibility
+license: MIT

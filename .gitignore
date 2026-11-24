@@ -1,0 +1,16 @@
+# Exclude publisher-typeset PDFs and raw source archives (copyright & manuscript safety)
+*.pdf
+CMIG_102827_Supplementary_Tables_S1-S4.zip
+LATEX_SOURCE_FLAT.zip
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KANs in Medical Image Analysis — Auditable Evidence Atlas &amp; Interactive Toolkit (CMIG 2026)</title>
+  <meta name="description" content="Interactive companion portal for 'A review of Kolmogorov–Arnold networks for medical image analysis' (Computerized Medical Imaging and Graphics, 136, 102827, 2026). Explore 138 audited studies, test KAN edge bases, and generate standardized reporting checklists." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span data-i18n="brandTitle">KAN-MedIA Evidence Atlas</span>
+        <span class="brand-badge">CMIG 2026 · 102827</span>
+      </div>
+
+      <nav class="nav-tabs" role="tablist" aria-label="Portal sections">
+        <button class="nav-tab active" data-tab="overview" data-i18n="tabOverview">Overview &amp; Matrix</button>
+        <button class="nav-tab" data-tab="explorer" data-i18n="tabExplorer">138-Study Explorer</button>
+        <button class="nav-tab" data-tab="sandbox" data-i18n="tabSandbox">Edge-Basis Sandbox</button>
+        <button class="nav-tab" data-tab="advisor" data-i18n="tabAdvisor">Study Designer &amp; Checklist</button>
+      </nav>
+
+      <div class="topbar-actions">
+        <button id="langToggle" class="btn-ghost" title="Switch Language / 切换中英文">中文</button>
+        <button id="themeToggle" class="btn-ghost" title="Toggle Dark/Light Mode">🌙</button>
+        <button id="citeBtn" class="btn-ghost" data-i18n="btnCite">Cite BibTeX</button>
+        <a href="https://github.com/Simon-Tisa/KAN-Medical-Imaging-Review" target="_blank" rel="noopener" class="btn-ghost">GitHub ↗</a>
+        <a href="https://doi.org/10.1016/j.compmedimag.2026.102827" target="_blank" rel="noopener" class="btn-primary-sm" data-i18n="btnPaper">Paper (DOI) ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-pills">
+        <span class="hero-pill">Computerized Medical Imaging and Graphics · Vol. 136 (2026) 102827</span>
+        <span class="hero-pill mono">DOI: 10.1016/j.compmedimag.2026.102827</span>
+        <span class="hero-pill" data-i18n="heroWindow">Window: Jan 2024 – Feb 2026</span>
+      </div>
+      <h1 id="heroTitle">
+        A Review of <span>Kolmogorov–Arnold Networks</span> for Medical Image Analysis
+      </h1>
+      <p class="hero-authors">
+        <strong>Jieyun Bai*</strong><sup>1</sup> · <strong>Zhongguo Cai</strong><sup>1</sup> · <strong>Rongshun Yang</strong> · <strong>Karim Lekadir</strong> · <strong>Shuo Li*</strong>
+      </p>
+      <p class="hero-lead" data-i18n="heroLead">
+        An auditable evidence reconstruction and methodological synthesis across 138 independent medical-imaging studies. Rather than treating reported metrics as a cross-paper leaderboard, this companion toolkit separates whole-model headline results from isolated KAN-specific contribution evidence across four modular integration mechanisms (A–D).
+      </p>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label" data-i18n="kpi1Label">Audited Evidence Corpus</div>
+          <div class="kpi-value">5,108 → 138</div>
+          <div class="kpi-sub" data-i18n="kpi1Sub">3,029 unique records screened · 127 Tier A + 11 Tier B</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label" data-i18n="kpi2Label">Modular Integration (A–D)</div>
+          <div class="kpi-value" data-i18n="kpi2Val">4 Mechanisms</div>
+          <div class="kpi-sub" data-i18n="kpi2Sub">Backbone 33 · Bottleneck 84 · Physics/INR 6 · Head 15</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label" data-i18n="kpi3Label">KAN Attribution Rigor</div>
+          <div class="kpi-value">0 / 138 Cat. A</div>
+          <div class="kpi-sub" data-i18n="kpi3Sub">48 Moderate (B) · 46 Compound (C) · 44 Insufficient (D)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label" data-i18n="kpi4Label">Headline vs. Isolation</div>
+          <div class="kpi-value">68 vs. 28</div>
+          <div class="kpi-sub" data-i18n="kpi4Sub">68 favorable full models, only 28 with moderate KAN evidence</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Interactive Content -->
+  <main class="container">
+    <!-- TAB 1: OVERVIEW & INTERACTIVE MATRICES -->
+    <section id="panel-overview" class="tab-panel active">
+      <div class="section-header">
+        <h2 data-i18n="ovHeading">Interactive Evidence Landscape (Click Any Cell to Filter Studies)</h2>
+        <p data-i18n="ovSub">Every number below is linked directly to Supplementary Table S1. Click any matrix cell or modular paradigm card to inspect the exact underlying studies.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 data-i18n="mat1Title">Whole-Model Direction × KAN-Specific Contribution Evidence</h3>
+          <p class="card-subtitle" data-i18n="mat1Sub">Separating reported full-model gains from controlled evidence isolating the KAN module</p>
+          <div id="attributionMatrixContainer"></div>
+          <div class="callout-banner" data-i18n="mat1Callout">
+            <strong>Core Finding:</strong> Zero studies satisfied Category A (complete resource-matched factorial attribution). Among 68 studies reporting favorable full-model performance, 40 simultaneously altered attention, Mamba/state-space blocks, losses, or lacked defensible KAN-only controls.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="mat2Title">Primary Medical Task × Modular Integration Placement (A–D)</h3>
+          <p class="card-subtitle" data-i18n="mat2Sub">Distribution of 138 independent studies across clinical imaging tasks and architectural depths</p>
+          <div id="taskIntegrationContainer"></div>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h2 data-i18n="paraHeading">Four Modular KAN Integration Paradigms (Section 3.1)</h2>
+        <p data-i18n="paraSub">Click any paradigm card to browse all corresponding studies in the 138-Study Explorer.</p>
+      </div>
+      <div id="paradigmCardsContainer" class="paradigm-grid"></div>
+
+      <div class="card" style="margin-bottom:22px;">
+        <h3 data-i18n="paperFigsHeading">Paper Architecture &amp; Framework Figures (Figs. 4 &amp; 7)</h3>
+        <p class="card-subtitle" data-i18n="paperFigsSub">High-resolution schematic diagrams rendered directly from our original vector manuscript figures</p>
+        <div class="grid-2" style="margin-bottom:0;">
+          <div>
+            <img src="assets/figures/fig4_review_overview.png" alt="Paper Figure 4 Overview" style="width:100%; border-radius:10px; border:1px solid var(--border);" loading="lazy" />
+            <div style="font-size:0.78rem; color:var(--text-muted); margin-top:6px;"><strong>Fig. 4:</strong> End-to-end five-pillar overview of KANs in medical imaging.</div>
+          </div>
+          <div>
+            <img src="assets/figures/fig7_pipeline_integration.png" alt="Paper Figure 7 Pipeline Integration" style="width:100%; border-radius:10px; border:1px solid var(--border);" loading="lazy" />
+            <div style="font-size:0.78rem; color:var(--text-muted); margin-top:6px;"><strong>Fig. 7:</strong> Schematic KAN insertion locations (Mechanisms A–D) across a medical-imaging pipeline.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="prismaHeading">Reproducible Retrospective Evidence Reconstruction (PRISMA Audit Trail)</h3>
+        <p class="card-subtitle" data-i18n="prismaSub"> Auditable path from 4 bibliographic APIs (Supplementary Table S3) through title/abstract screening (S4) and full-text reconciliation (S2) to the 138-study matrix (S1).</p>
+        <div id="prismaContainer"></div>
+      </div>
+    </section>
+
+    <!-- TAB 2: 138-STUDY INTERACTIVE EXPLORER -->
+    <section id="panel-explorer" class="tab-panel">
+      <div class="section-header">
+        <h2 data-i18n="expHeading">138-Study Auditable Evidence Explorer (Supplementary Table S1)</h2>
+        <p data-i18n="expSub">Filter across architectural placement, task, modality, whole-model direction, and KAN-specific attribution rigor. Export any filtered subset for meta-research.</p>
+      </div>
+
+      <div class="filter-bar">
+        <div class="search-row">
+          <input type="search" id="searchInput" class="search-input" placeholder="Search by model (e.g., U-KAN, MedKAN, CEST-LKAN, CoxKAN), dataset (BUSI, BraTS, ACDC), modality, or DOI..." />
+          <button id="resetFiltersBtn" class="btn-outline" data-i18n="btnReset">Reset Filters</button>
+        </div>
+
+        <div class="filter-selects">
+          <div class="filter-group">
+            <label for="filterTask" data-i18n="lblTask">Primary Task</label>
+            <select id="filterTask"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterIntegration" data-i18n="lblIntegration">KAN Placement (A–D)</label>
+            <select id="filterIntegration"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterEvidence" data-i18n="lblEvidence">KAN Contribution Evidence</label>
+            <select id="filterEvidence"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterDirection" data-i18n="lblDirection">Whole-Model Direction</label>
+            <select id="filterDirection"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterModality" data-i18n="lblModality">Imaging Modality</label>
+            <select id="filterModality"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterYearTier" data-i18n="lblYearTier">Year / Input Tier</label>
+            <select id="filterYearTier"></select>
+          </div>
+        </div>
+
+        <div id="presetChips" class="preset-chips"></div>
+      </div>
+
+      <div class="results-toolbar">
+        <div id="resultsCountText">Showing 138 of 138 studies</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button id="exportCsvBtn" class="btn-outline" data-i18n="btnExportCsv">⬇ Export Filtered CSV</button>
+          <button id="exportJsonBtn" class="btn-outline" data-i18n="btnExportJson">⬇ Export Filtered JSON</button>
+        </div>
+      </div>
+
+      <div id="studyListContainer" class="study-list"></div>
+    </section>
+
+    <!-- TAB 3: KAN EDGE-FUNCTION & PHYSICAL PRIOR SANDBOX -->
+    <section id="panel-sandbox" class="tab-panel">
+      <div class="section-header">
+        <h2 data-i18n="sbHeading">KAN Edge-Function &amp; Physical Prior Interactive Sandbox</h2>
+        <p data-i18n="sbSub">Explore how KANs move learnable nonlinearities from nodes to edges φ(x), why domain-aligned bases (e.g., Lorentzian for CEST-MRI, Chebyshev for MRI k-space, Jacobi for INR registration) act as testable priors, and how basis parameters affect complexity.</p>
+      </div>
+
+      <div class="sandbox-layout">
+        <div class="card">
+          <h3 data-i18n="sbSelectTitle">1. Select Edge-Basis Family</h3>
+          <p class="card-subtitle" data-i18n="sbSelectSub">Compare general spline bases with physics-aligned &amp; fast approximations</p>
+          <div id="basisSelector" class="basis-btn-list"></div>
+
+          <h3 data-i18n="sbParamTitle" style="margin-top:16px;">2. Interactive Basis Controls</h3>
+          <div id="sandboxControls"></div>
+
+          <div class="slider-row" style="margin-top:14px;">
+            <label for="mlpComparatorSelect"><span data-i18n="sbMlpOverlay">Overlay MLP Node Activation</span></label>
+            <select id="mlpComparatorSelect" style="width:100%; padding:7px 10px; border-radius:8px; border:1px solid var(--border-strong); background:var(--bg); color:var(--text);">
+              <option value="silu">w · SiLU(x) (Modern CNN / ViT baseline)</option>
+              <option value="relu">w · ReLU(x) (Piecewise linear MLP)</option>
+              <option value="gelu">w · GELU(x) (Transformer FFN)</option>
+              <option value="none">None (Hide MLP comparator)</option>
+            </select>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:10px; flex-wrap:wrap;">
+            <label style="font-size:0.8rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+              <input type="checkbox" id="showComponentsCheck" checked />
+              <span data-i18n="sbShowBasis">Show individual basis terms</span>
+            </label>
+            <button id="perturbSeedBtn" class="btn-outline" data-i18n="sbPerturbBtn">🎲 Perturb Coefficients</button>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:18px;">
+          <div class="card">
+            <h3 id="sandboxChartTitle">Learnable Edge Function φ(x) vs. Fixed Node Activation</h3>
+            <div id="basisFormulaBox" class="formula-box"></div>
+            <div class="canvas-wrap">
+              <canvas id="basisCanvas" width="760" height="340"></canvas>
+            </div>
+            <div id="basisClinicalNote" class="callout-banner"></div>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="compHeading">Order-of-Magnitude Parameter &amp; Compute Estimator (Section 2.3.5)</h3>
+            <p class="card-subtitle" data-i18n="compSub">Compare idealized MLP O(L·w²) vs. Dense KAN O(L·w²·(G+p)) parameter scaling — illustrating why matched channel width ≠ matched parameter budget</p>
+            <div class="filter-selects">
+              <div class="slider-row">
+                <label><span>Depth L</span><span id="valCompL">4</span></label>
+                <input type="range" id="compL" min="1" max="12" value="4" />
+              </div>
+              <div class="slider-row">
+                <label><span>Width w</span><span id="valCompW">128</span></label>
+                <input type="range" id="compW" min="16" max="512" step="16" value="128" />
+              </div>
+              <div class="slider-row">
+                <label><span>Grid / Centers G</span><span id="valCompG">5</span></label>
+                <input type="range" id="compG" min="2" max="20" value="5" />
+              </div>
+              <div class="slider-row">
+                <label><span>Basis Order p</span><span id="valCompP">3</span></label>
+                <input type="range" id="compP" min="1" max="6" value="3" />
+              </div>
+            </div>
+            <div id="complexityStats" class="complexity-grid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: STUDY DESIGNER & 4-PART REPORTING CHECKLIST -->
+    <section id="panel-advisor" class="tab-panel">
+      <div class="section-header">
+        <h2 data-i18n="advHeading">Hypothesis-Selection Advisor &amp; 4-Part Reporting Checklist Generator</h2>
+        <p data-i18n="advSub">Operationalizing Figure 8 and Section 4.4 of the review: configure your medical imaging study conditions to select a defensible KAN hypothesis, then generate a ready-to-paste Markdown reporting table for your paper or rebuttal.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 data-i18n="advConfigTitle">Configure Your Study Conditions (Fig. 8)</h3>
+          <p class="card-subtitle" data-i18n="advConfigSub">Select data scale, audit priority, physical priors, and deployment constraints</p>
+
+          <div class="filter-selects" style="grid-template-columns:1fr;">
+            <div class="filter-group">
+              <label for="advDataScale" data-i18n="advLblData">1. Labeled Data Regime</label>
+              <select id="advDataScale">
+                <option value="small" data-i18n="advOptSmall">Small / Limited Annotations (Single-center, rare disease, low-label fraction)</option>
+                <option value="large" data-i18n="advOptLarge">Large-Scale, Well-Annotated Benchmark (Multi-center or abundant labels)</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="advPriority" data-i18n="advLblPrio">2. Primary Study Objective</label>
+              <select id="advPriority">
+                <option value="transparency" data-i18n="advOptTrans">Functional Transparency, Symbolic Risk Auditing, or Physical Interpretability</option>
+                <option value="performance" data-i18n="advOptPerf">Task Predictive Performance (Dice / AUC / PSNR) &amp; Parameter Efficiency</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="advPhysicsPrior" data-i18n="advLblPhys">3. Explicit Physical / Spectral Forward Model?</label>
+              <select id="advPhysicsPrior">
+                <option value="yes" data-i18n="advOptPhysYes">Yes (e.g., CEST line shapes, MRI k-space, continuous 4D deformation field)</option>
+                <option value="no" data-i18n="advOptPhysNo">No (Empirical image-to-label / image-to-mask mapping)</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="advLatency3D" data-i18n="advLblLat">4. Volumetric / Real-Time Latency Constraint</label>
+              <select id="advLatency3D">
+                <option value="strict" data-i18n="advOptLatStrict">High-Resolution 3D/4D Volume or Strict Clinical Latency Budget</option>
+                <option value="relaxed" data-i18n="advOptLatRelax">2D Slices / RoI Features / Offline Analysis</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="quadrantGrid" class="quadrant-grid"></div>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="advRecTitle">Recommended Experimental Design &amp; Required Controls</h3>
+          <p class="card-subtitle" data-i18n="advRecSub">Guidance for falsifiable hypothesis testing (not a clinical deployment endorsement)</p>
+          <div id="advisorOutputCard"></div>
+        </div>
+      </div>
+
+      <!-- 4-Part Reporting Checklist -->
+      <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px; margin-bottom:14px;">
+          <div>
+            <h3 data-i18n="chkHeading">4-Part Minimum Reporting Standard Checklist (Section 4.4)</h3>
+            <p class="card-subtitle" style="margin-bottom:0;" data-i18n="chkSub">Check items fulfilled by your experiment and add brief notes to export a standardized Markdown table for your paper's supplementary material or GitHub README.</p>
+          </div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <button id="checkAllDemoBtn" class="btn-outline" data-i18n="btnFillDemo">Fill Exemplar Demo</button>
+            <button id="clearChecklistBtn" class="btn-outline" data-i18n="btnClearChk">Clear All</button>
+            <button id="copyChecklistMdBtn" class="btn-solid" data-i18n="btnCopyMd">📋 Copy Markdown Table</button>
+            <button id="downloadChecklistMdBtn" class="btn-outline" data-i18n="btnDownloadMd">⬇ Download .md</button>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr auto; gap:14px; align-items:center; margin-bottom:16px;">
+          <div>
+            <input type="text" id="studyTitleInput" class="search-input" style="width:100%; margin-bottom:10px;" placeholder="Optional: Enter your manuscript or model name (e.g., MyKAN-UNet for 3D Cardiac MRI Segmentation)" />
+            <div style="display:flex; justify-content:space-between; font-size:0.82rem; font-weight:600; margin-bottom:5px;">
+              <span id="checklistProgressText">0 / 16 items reported (0%)</span>
+              <span id="predictedEvidenceBadge" class="badge ev-D">Estimated Max Attribution Grade: Cat. D</span>
+            </div>
+            <div class="progress-bar-outer">
+              <div id="checklistProgressBar" class="progress-bar-inner" style="width:0%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="checklistContainer"></div>
+
+        <details style="margin-top:14px;">
+          <summary style="cursor:pointer; font-weight:700; font-size:0.88rem; color:var(--primary);" data-i18n="chkPreviewSummary">Preview Generated Markdown Table</summary>
+          <pre id="checklistPreviewBox" class="code-box" style="margin-top:10px;"></pre>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- Study Detail Modal -->
+  <div id="studyModal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div id="studyModalHeader"></div>
+        <button id="studyModalClose" class="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div id="studyModalBody" class="detail-grid"></div>
+    </div>
+  </div>
+
+  <!-- Citation Modal -->
+  <div id="citeModal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-card" style="max-width:660px;">
+      <div class="modal-head">
+        <div>
+          <h3 style="margin:0 0 4px;" data-i18n="citeModalTitle">Cite This Review &amp; Evidence Atlas</h3>
+          <p style="margin:0; font-size:0.82rem; color:var(--text-muted);">Computerized Medical Imaging and Graphics, Vol. 136 (2026) 102827</p>
+        </div>
+        <button id="citeModalClose" class="modal-close" aria-label="Close">✕</button>
+      </div>
+      <pre id="bibtexPre" class="code-box">@article{bai2026kan_review,
+  title   = {A review of {Kolmogorov--Arnold} networks for medical image analysis},
+  author  = {Bai, Jieyun and Cai, Zhongguo and Yang, Rongshun and Lekadir, Karim and Li, Shuo},
+  journal = {Computerized Medical Imaging and Graphics},
+  volume  = {136},
+  pages   = {102827},
+  year    = {2026},
+  issn    = {0895-6111},
+  doi     = {10.1016/j.compmedimag.2026.102827},
+  url     = {https://doi.org/10.1016/j.compmedimag.2026.102827}
+}</pre>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+        <button id="copyBibtexBtn" class="btn-solid">📋 Copy BibTeX</button>
+        <button id="copyApaBtn" class="btn-outline">📋 Copy APA Citation</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <strong>Bai, Cai, Yang, Lekadir, &amp; Li (2026)</strong> · <em>Computerized Medical Imaging and Graphics</em> 136, 102827 ·
+      <a href="https://doi.org/10.1016/j.compmedimag.2026.102827" target="_blank" rel="noopener">DOI: 10.1016/j.compmedimag.2026.102827</a>
+    </div>
+    <div style="margin-top:4px;">
+      Data audited from Supplementary Tables S1–S4 · Zero-dependency open academic companion portal
+    </div>
+  </footer>
+
+  <script src="assets/data/studies_data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

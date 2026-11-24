@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="A review of Kolmogorov-Arnold networks for medical image analysis banner">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="52%" stop-color="#13203B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <pattern id="gridPat" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="370" rx="20" fill="url(#heroBg)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#gridPat)"/>
+  <rect x="1" y="1" width="1198" height="368" rx="19" fill="none" stroke="#334155" stroke-width="1.5"/>
+  <rect x="44" y="0" width="320" height="4" rx="2" fill="url(#accentLine)"/>
+
+  <!-- Decorative edge-function curves on right -->
+  <g opacity="0.9">
+    <rect x="812" y="34" width="348" height="192" rx="14" fill="#0F172A" fill-opacity="0.72" stroke="#334155" stroke-width="1"/>
+    <text x="828" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#94A3B8">Learnable Edge Bases  φ(x) = Σ λᵢ Bᵢ(x)</text>
+    <line x1="824" y1="155" x2="1146" y2="155" stroke="#334155" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 828.00 113.00 L 830.66 123.83 L 833.31 133.74 L 835.97 142.78 L 838.62 150.99 L 841.28 158.39 L 843.93 165.02 L 846.59 170.93 L 849.24 176.14 L 851.90 180.68 L 854.55 184.60 L 857.21 187.92 L 859.87 190.66 L 862.52 192.88 L 865.18 194.59 L 867.83 195.82 L 870.49 196.60 L 873.14 196.97 L 875.80 196.94 L 878.45 196.55 L 881.11 195.82 L 883.76 194.78 L 886.42 193.45 L 889.08 191.86 L 891.73 190.03 L 894.39 187.99 L 897.04 185.75 L 899.70 183.34 L 902.35 180.78 L 905.01 178.09 L 907.66 175.29 L 910.32 172.40 L 912.97 169.44 L 915.63 166.43 L 918.29 163.38 L 920.94 160.31 L 923.60 157.24 L 926.25 154.18 L 928.91 151.14 L 931.56 148.15 L 934.22 145.21 L 936.87 142.34 L 939.53 139.55 L 942.18 136.85 L 944.84 134.25 L 947.50 131.77 L 950.15 129.41 L 952.81 127.17 L 955.46 125.08 L 958.12 123.14 L 960.77 121.35 L 963.43 119.72 L 966.08 118.25 L 968.74 116.96 L 971.39 115.85 L 974.05 114.91 L 976.71 114.16 L 979.36 113.59 L 982.02 113.21 L 984.67 113.02 L 987.33 113.02 L 989.98 113.21 L 992.64 113.59 L 995.29 114.16 L 997.95 114.91 L 1000.61 115.85 L 1003.26 116.96 L 1005.92 118.25 L 1008.57 119.72 L 1011.23 121.35 L 1013.88 123.14 L 1016.54 125.08 L 1019.19 127.17 L 1021.85 129.41 L 1024.50 131.77 L 1027.16 134.25 L 1029.82 136.85 L 1032.47 139.55 L 1035.13 142.34 L 1037.78 145.21 L 1040.44 148.15 L 1043.09 151.14 L 1045.75 154.18 L 1048.40 157.24 L 1051.06 160.31 L 1053.71 163.38 L 1056.37 166.43 L 1059.03 169.44 L 1061.68 172.40 L 1064.34 175.29 L 1066.99 178.09 L 1069.65 180.78 L 1072.30 183.34 L 1074.96 185.75 L 1077.61 187.99 L 1080.27 190.03 L 1082.92 191.86 L 1085.58 193.45 L 1088.24 194.78 L 1090.89 195.82 L 1093.55 196.55 L 1096.20 196.94 L 1098.86 196.97 L 1101.51 196.60 L 1104.17 195.82 L 1106.82 194.59 L 1109.48 192.88 L 1112.13 190.66 L 1114.79 187.92 L 1117.45 184.60 L 1120.10 180.68 L 1122.76 176.14 L 1125.41 170.93 L 1128.07 165.02 L 1130.72 158.39 L 1133.38 150.99 L 1136.03 142.78 L 1138.69 133.74 L 1141.34 123.83 L 1144.00 113.00" fill="none" stroke="#818CF8" stroke-width="1.8" stroke-opacity="0.65"/>
+    <path d="M 828.00 184.28 L 830.66 185.66 L 833.31 187.00 L 835.97 188.30 L 838.62 189.56 L 841.28 190.77 L 843.93 191.93 L 846.59 193.04 L 849.24 194.09 L 851.90 195.09 L 854.55 196.03 L 857.21 196.91 L 859.87 197.73 L 862.52 198.49 L 865.18 199.19 L 867.83 199.82 L 870.49 200.38 L 873.14 200.88 L 875.80 201.30 L 878.45 201.66 L 881.11 201.95 L 883.76 202.16 L 886.42 202.31 L 889.08 202.38 L 891.73 202.38 L 894.39 202.31 L 897.04 202.16 L 899.70 201.95 L 902.35 201.66 L 905.01 201.30 L 907.66 200.86 L 910.32 200.36 L 912.97 199.78 L 915.63 199.14 L 918.29 198.42 L 920.94 197.63 L 923.60 196.77 L 926.25 195.84 L 928.91 194.84 L 931.56 193.77 L 934.22 192.63 L 936.87 191.42 L 939.53 190.14 L 942.18 188.79 L 944.84 187.37 L 947.50 185.88 L 950.15 184.32 L 952.81 182.68 L 955.46 180.98 L 958.12 179.20 L 960.77 177.35 L 963.43 175.43 L 966.08 173.44 L 968.74 171.38 L 971.39 169.25 L 974.05 167.05 L 976.71 164.79 L 979.36 162.46 L 982.02 160.09 L 984.67 157.66 L 987.33 155.18 L 989.98 152.67 L 992.64 150.13 L 995.29 147.56 L 997.95 144.98 L 1000.61 142.41 L 1003.26 139.84 L 1005.92 137.29 L 1008.57 134.78 L 1011.23 132.32 L 1013.88 129.92 L 1016.54 127.59 L 1019.19 125.35 L 1021.85 123.22 L 1024.50 121.20 L 1027.16 119.30 L 1029.82 117.54 L 1032.47 115.92 L 1035.13 114.45 L 1037.78 113.15 L 1040.44 112.01 L 1043.09 111.03 L 1045.75 110.23 L 1048.40 109.59 L 1051.06 109.13 L 1053.71 108.82 L 1056.37 108.68 L 1059.03 108.69 L 1061.68 108.84 L 1064.34 109.14 L 1066.99 109.56 L 1069.65 110.10 L 1072.30 110.76 L 1074.96 111.51 L 1077.61 112.35 L 1080.27 113.27 L 1082.92 114.26 L 1085.58 115.32 L 1088.24 116.42 L 1090.89 117.58 L 1093.55 118.77 L 1096.20 119.99 L 1098.86 121.25 L 1101.51 122.52 L 1104.17 123.82 L 1106.82 125.13 L 1109.48 126.46 L 1112.13 127.81 L 1114.79 129.16 L 1117.45 130.53 L 1120.10 131.92 L 1122.76 133.31 L 1125.41 134.72 L 1128.07 136.14 L 1130.72 137.58 L 1133.38 139.04 L 1136.03 140.51 L 1138.69 141.99 L 1141.34 143.50 L 1144.00 145.02" fill="none" stroke="#38BDF8" stroke-width="2.6"/>
+    <path d="M 828.00 205.91 L 830.66 205.62 L 833.31 205.32 L 835.97 205.00 L 838.62 204.67 L 841.28 204.32 L 843.93 203.95 L 846.59 203.56 L 849.24 203.16 L 851.90 202.73 L 854.55 202.28 L 857.21 201.81 L 859.87 201.31 L 862.52 200.78 L 865.18 200.22 L 867.83 199.63 L 870.49 199.01 L 873.14 198.35 L 875.80 197.65 L 878.45 196.91 L 881.11 196.12 L 883.76 195.29 L 886.42 194.40 L 889.08 193.45 L 891.73 192.44 L 894.39 191.36 L 897.04 190.21 L 899.70 188.99 L 902.35 187.68 L 905.01 186.27 L 907.66 184.77 L 910.32 183.16 L 912.97 181.44 L 915.63 179.59 L 918.29 177.61 L 920.94 175.48 L 923.60 173.19 L 926.25 170.74 L 928.91 168.10 L 931.56 165.28 L 934.22 162.26 L 936.87 159.02 L 939.53 155.57 L 942.18 151.90 L 944.84 148.00 L 947.50 143.88 L 950.15 139.55 L 952.81 135.02 L 955.46 130.34 L 958.12 125.54 L 960.77 120.67 L 963.43 115.82 L 966.08 111.06 L 968.74 106.51 L 971.39 102.28 L 974.05 98.50 L 976.71 95.28 L 979.36 92.75 L 982.02 91.01 L 984.67 90.11 L 987.33 90.11 L 989.98 91.01 L 992.64 92.75 L 995.29 95.28 L 997.95 98.50 L 1000.61 102.28 L 1003.26 106.51 L 1005.92 111.06 L 1008.57 115.82 L 1011.23 120.67 L 1013.88 125.54 L 1016.54 130.34 L 1019.19 135.02 L 1021.85 139.55 L 1024.50 143.88 L 1027.16 148.00 L 1029.82 151.90 L 1032.47 155.57 L 1035.13 159.02 L 1037.78 162.26 L 1040.44 165.28 L 1043.09 168.10 L 1045.75 170.74 L 1048.40 173.19 L 1051.06 175.48 L 1053.71 177.61 L 1056.37 179.59 L 1059.03 181.44 L 1061.68 183.16 L 1064.34 184.77 L 1066.99 186.27 L 1069.65 187.68 L 1072.30 188.99 L 1074.96 190.21 L 1077.61 191.36 L 1080.27 192.44 L 1082.92 193.45 L 1085.58 194.40 L 1088.24 195.29 L 1090.89 196.12 L 1093.55 196.91 L 1096.20 197.65 L 1098.86 198.35 L 1101.51 199.01 L 1104.17 199.63 L 1106.82 200.22 L 1109.48 200.78 L 1112.13 201.31 L 1114.79 201.81 L 1117.45 202.28 L 1120.10 202.73 L 1122.76 203.16 L 1125.41 203.56 L 1128.07 203.95 L 1130.72 204.32 L 1133.38 204.67 L 1136.03 205.00 L 1138.69 205.32 L 1141.34 205.62 L 1144.00 205.91" fill="none" stroke="#34D399" stroke-width="2.4"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10" fill="#CBD5E1">
+      <circle cx="830" cy="210" r="3.8" fill="#38BDF8"/><text x="839" y="214">B-Spline</text>
+      <circle cx="912" cy="210" r="3.8" fill="#34D399"/><text x="921" y="214">Lorentzian (CEST)</text>
+      <circle cx="1044" cy="210" r="3.8" fill="#818CF8"/><text x="1053" y="214">Chebyshev</text>
+    </g>
+  </g>
+
+  <!-- Journal & DOI Pill -->
+  <g transform="translate(44, 34)">
+    <rect x="0" y="0" width="438" height="28" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4.5" fill="#38BDF8"/>
+    <text x="28" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#E0F2FE">Computerized Medical Imaging and Graphics · 136 (2026) 102827</text>
+
+    <rect x="450" y="0" width="290" height="28" rx="14" fill="#1E293B" stroke="#64748B" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="466" y="18.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#CBD5E1">DOI: 10.1016/j.compmedimag.2026.102827</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="44" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="29" font-weight="800" fill="#F8FAFC" letter-spacing="-0.4">A Review of Kolmogorov–Arnold Networks</text>
+  <text x="44" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="29" font-weight="800" fill="#38BDF8" letter-spacing="-0.4">for Medical Image Analysis</text>
+
+  <!-- Subtitle & Authors -->
+  <text x="44" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#CBD5E1">Auditable Synthesis of 138 Studies (2024–2026) · Modular Taxonomy · Clinical Translation</text>
+  <text x="44" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#94A3B8">Jieyun Bai* · Zhongguo Cai · Rongshun Yang · Karim Lekadir · Shuo Li*</text>
+
+  <!-- Bottom 4 KPI Cards -->
+  <g transform="translate(44, 244)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="268" height="94" rx="12" fill="#1E293B" fill-opacity="0.88" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">AUDITABLE EVIDENCE CORPUS</text>
+    <text x="16" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC">5,108 → 138 Studies</text>
+    <text x="16" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.8" fill="#94A3B8">3,029 screened · 127 Tier A + 11 Tier B</text>
+
+    <!-- Card 2 -->
+    <rect x="282" y="0" width="268" height="94" rx="12" fill="#1E293B" fill-opacity="0.88" stroke="#334155" stroke-width="1"/>
+    <text x="298" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#818CF8">MODULAR TAXONOMY (A–D)</text>
+    <text x="298" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC">4 Integration Roles</text>
+    <text x="298" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.8" fill="#94A3B8">A: 33 · B: 84 · C (INR): 6 · D (Head): 15</text>
+
+    <!-- Card 3 -->
+    <rect x="564" y="0" width="268" height="94" rx="12" fill="#1E293B" fill-opacity="0.88" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="580" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#FBBF24">ATTRIBUTION RIGOR GAP</text>
+    <text x="580" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC">0 / 138 Category A</text>
+    <text x="580" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.8" fill="#94A3B8">Cat. B: 48 · Cat. C: 46 · Cat. D: 44</text>
+
+    <!-- Card 4 -->
+    <rect x="846" y="0" width="270" height="94" rx="12" fill="#1E293B" fill-opacity="0.88" stroke="#34D399" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="862" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#34D399">OPEN COMPANION TOOLKIT</text>
+    <text x="862" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC">Tables S1–S4 + Web</text>
+    <text x="862" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.8" fill="#94A3B8">Explorer · Basis Lab · Checklist</text>
+  </g>
+</svg>

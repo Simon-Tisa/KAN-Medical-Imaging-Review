@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 508" width="1200" height="508" role="img" aria-label="Headline Direction vs KAN Attribution Matrix and Task x Module Breakdown">
+  <rect width="1200" height="508" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="32" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19.5" font-weight="800" fill="#0F172A">Cross-Tabulated Audit Synthesis from Supplementary Table S1 (n = 138)</text>
+  <text x="32" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569">Complementary quantitative breakdown of Section 3.4: isolating KAN-specific contribution from compound full-model claims</text>
+  <line x1="28" y1="70" x2="1172" y2="70" stroke="#E2E8F0" stroke-width="1.2"/>
+
+  <!-- Left Panel: 2D Attribution Matrix -->
+  <g transform="translate(28, 84)">
+    <rect x="0" y="0" width="564" height="400" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="22" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">1. Whole-Model Direction × KAN Attribution Rigor</text>
+    <text x="22" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B">Rows: reported full-model direction · Cols: isolated KAN contribution evidence</text>
+    <rect x="225" y="58" width="66" height="36" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="258" y="73" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.2" font-weight="700" fill="#059669">Cat. A</text>
+    <text x="258" y="87" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748B">Factorial</text>
+    <rect x="303" y="58" width="66" height="36" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="336" y="73" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.2" font-weight="700" fill="#0284C7">Cat. B</text>
+    <text x="336" y="87" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748B">Moderate</text>
+    <rect x="381" y="58" width="66" height="36" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="414" y="73" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.2" font-weight="700" fill="#D97706">Cat. C</text>
+    <text x="414" y="87" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748B">Compound</text>
+    <rect x="459" y="58" width="66" height="36" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="492" y="73" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.2" font-weight="700" fill="#DC2626">Cat. D</text>
+    <text x="492" y="87" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="9.5" fill="#64748B">Insuf.</text>
+    <circle cx="24" cy="122" r="4.5" fill="#10B981"/>
+    <text x="35" y="119" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#1E293B">Favorable Full Model</text>
+    <text x="35" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#64748B">n = 68</text>
+    <rect x="225" y="104" width="66" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="258" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#94A3B8">0</text>
+    <rect x="303" y="104" width="66" height="38" rx="8" fill="#DBEAFE" stroke="#0284C7" stroke-width="1.2"/>
+    <text x="336" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#0F172A">28</text>
+    <rect x="381" y="104" width="66" height="38" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.2"/>
+    <text x="414" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#0F172A">19</text>
+    <rect x="459" y="104" width="66" height="38" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.2"/>
+    <text x="492" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#0F172A">21</text>
+    <circle cx="24" cy="170" r="4.5" fill="#F59E0B"/>
+    <text x="35" y="167" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#1E293B">Mixed / Trade-off</text>
+    <text x="35" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#64748B">n = 30</text>
+    <rect x="225" y="152" width="66" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="258" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#94A3B8">0</text>
+    <rect x="303" y="152" width="66" height="38" rx="8" fill="#DBEAFE" stroke="#0284C7" stroke-width="1.2"/>
+    <text x="336" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#0F172A">19</text>
+    <rect x="381" y="152" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="414" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">5</text>
+    <rect x="459" y="152" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="492" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">6</text>
+    <circle cx="24" cy="218" r="4.5" fill="#EF4444"/>
+    <text x="35" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#1E293B">Unfavorable / Null</text>
+    <text x="35" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#64748B">n = 4</text>
+    <rect x="225" y="200" width="66" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="258" y="224" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#94A3B8">0</text>
+    <rect x="303" y="200" width="66" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="336" y="224" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#94A3B8">0</text>
+    <rect x="381" y="200" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="414" y="224" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">2</text>
+    <rect x="459" y="200" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="492" y="224" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">2</text>
+    <circle cx="24" cy="266" r="4.5" fill="#64748B"/>
+    <text x="35" y="263" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#1E293B">Indeterminate / N.C.</text>
+    <text x="35" y="278" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#64748B">n = 36</text>
+    <rect x="225" y="248" width="66" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="258" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#94A3B8">0</text>
+    <rect x="303" y="248" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="336" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">1</text>
+    <rect x="381" y="248" width="66" height="38" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.2"/>
+    <text x="414" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#0F172A">20</text>
+    <rect x="459" y="248" width="66" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="492" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#1E293B">15</text>
+    <line x1="22" y1="302" x2="542" y2="302" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="22" y="322" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0F172A">Column Totals (n = 138)</text>
+    <text x="258" y="322" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="800" fill="#059669">0</text>
+    <text x="336" y="322" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="800" fill="#0284C7">48</text>
+    <text x="414" y="322" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="800" fill="#D97706">46</text>
+    <text x="492" y="322" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="800" fill="#DC2626">44</text>
+    <rect x="20" y="332" width="524" height="52" rx="8" fill="#FFFBEB" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="32" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.8" font-weight="700" fill="#92400E">Key Audit Finding: 0 / 138 studies reach Cat. A (strict factorial control);</text>
+    <text x="32" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.6" fill="#78350F">40 of 68 favorable full-model reports are confounded (Cat. C: 19) or insufficient (Cat. D: 21).</text>
+  </g>
+
+  <!-- Right Panel: Task x Modular Placement -->
+  <g transform="translate(608, 84)">
+    <rect x="0" y="0" width="564" height="400" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="22" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">2. Primary Clinical Task × KAN Placement (A–D)</text>
+    <text x="22" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B">Bottleneck/token fusion dominates segmentation; INR anchors registration &amp; CEST</text>
+    <text x="22" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Segmentation</text>
+    <text x="542" y="77" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">68</text>
+    <rect x="234" y="66" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="66" width="80.0" height="14" rx="3" fill="#2563EB"/>
+    <rect x="314.0" y="66" width="192.0" height="14" rx="3" fill="#0D9488"/>
+    <text x="22" y="117" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Classification / Detection</text>
+    <text x="542" y="117" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">45</text>
+    <rect x="234" y="106" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="106" width="36.0" height="14" rx="3" fill="#2563EB"/>
+    <rect x="270.0" y="106" width="100.0" height="14" rx="3" fill="#0D9488"/>
+    <rect x="370.0" y="106" width="44.0" height="14" rx="3" fill="#EA580C"/>
+    <text x="22" y="157" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Reconstruction / Enhancement</text>
+    <text x="542" y="157" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">11</text>
+    <rect x="234" y="146" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="146" width="12.0" height="14" rx="3" fill="#2563EB"/>
+    <rect x="246.0" y="146" width="24.0" height="14" rx="3" fill="#0D9488"/>
+    <rect x="270.0" y="146" width="8.0" height="14" rx="3" fill="#7C3AED"/>
+    <text x="22" y="197" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Quantitative / Other Analysis</text>
+    <text x="542" y="197" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">5</text>
+    <rect x="234" y="186" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="186" width="8.0" height="14" rx="3" fill="#0D9488"/>
+    <rect x="242.0" y="186" width="8.0" height="14" rx="3" fill="#7C3AED"/>
+    <rect x="250.0" y="186" width="5.0" height="14" rx="3" fill="#EA580C"/>
+    <text x="22" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Registration</text>
+    <text x="542" y="237" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">3</text>
+    <rect x="234" y="226" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="226" width="5.0" height="14" rx="3" fill="#2563EB"/>
+    <rect x="239.0" y="226" width="8.0" height="14" rx="3" fill="#7C3AED"/>
+    <text x="22" y="277" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Image Fusion</text>
+    <text x="542" y="277" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">3</text>
+    <rect x="234" y="266" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="266" width="8.0" height="14" rx="3" fill="#0D9488"/>
+    <rect x="242.0" y="266" width="5.0" height="14" rx="3" fill="#EA580C"/>
+    <text x="22" y="317" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Image-Derived Outcome Pred.</text>
+    <text x="542" y="317" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0F172A">3</text>
+    <rect x="234" y="306" width="272" height="14" rx="5" fill="#E2E8F0"/>
+    <rect x="234.0" y="306" width="5.0" height="14" rx="3" fill="#0D9488"/>
+    <rect x="239.0" y="306" width="8.0" height="14" rx="3" fill="#EA580C"/>
+    <line x1="22" y1="348" x2="542" y2="348" stroke="#E2E8F0" stroke-width="1"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="10.6" fill="#334155">
+      <rect x="22" y="364" width="11" height="11" rx="2.5" fill="#2563EB"/><text x="37" y="374">A: Backbone (33)</text>
+      <rect x="150" y="364" width="11" height="11" rx="2.5" fill="#0D9488"/><text x="165" y="374">B: Bottleneck (84)</text>
+      <rect x="292" y="364" width="11" height="11" rx="2.5" fill="#7C3AED"/><text x="307" y="374">C: Physics/INR (6)</text>
+      <rect x="434" y="364" width="11" height="11" rx="2.5" fill="#EA580C"/><text x="449" y="374">D: Head (15)</text>
+    </g>
+  </g>
+</svg>
