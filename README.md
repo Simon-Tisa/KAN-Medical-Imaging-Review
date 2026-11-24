@@ -28,7 +28,7 @@ Official open-science companion repository for our methodological review publish
 
 <div align="center">
   <img src="assets/paper_figures/fig4_review_overview.png" alt="Fig. 4 — KANs in medical imaging: from representation theory to modular integration, evaluation, and future roadmap" width="100%" />
-  <p><em><strong>Fig. 4 (Overview):</strong> Five core pillars of this review—from representation theory and modular KAN integration (A–D) to task-level evidence, normative evaluation/interpretability/deployment criteria, and testable research priorities.</em></p>
+  <p><em><strong>Fig. 4 (Overview):</strong> Five core pillars of this review—from representation theory and modular KAN integration (A–D) to task-level evidence, normative evaluation/interpretability/deployment criteria, and testable research priorities. Illustrative thumbnails adapted from public datasets BreastMNIST/MedMNIST (CC BY 4.0), BUSI (CC BY 4.0), and Brain Tumor MRI (CC0). Reproduced from Bai et al., Comput. Med. Imaging Graph. 136 (2026) 102827, © 2026 Elsevier Ltd.</em></p>
 </div>
 
 ### Key Takeaways in 30 Seconds
@@ -201,8 +201,9 @@ If this review, modular taxonomy, auditable evidence matrix (`S1–S4`), or repo
 
 ---
 
-## Acknowledgments & Correspondence
+## Acknowledgments & Rights Notice
 
 Supported by the National Natural Science Foundation of China (Grant No. `62671274`), the Natural Science Foundation of Guangdong Province (`2025A1515220071`), the Guangzhou Science and Technology Planning Project (`2025B03J0127`), and the European Research Council (ERC) under the Horizon Europe AIMIX Project (Grant Agreement No. `101044779`).
 
-- **Corresponding Authors**: Prof. Jieyun Bai (`baijieyun@jnu.edu.cn`, Jinan University) & Prof. Shuo Li (`shuo.li11@case.edu`, Case Western Reserve University)
+- **License & Copyright Scope**: Portal source code, scripts, and custom SVG charts are released under the [MIT License](LICENSE). Underlying screening and evidence ledgers (`data/S1–S4`) are shared openly in accordance with the article's Data Availability statement. Article figures in `assets/paper_figures/` (`Figs. 1–8`) are reproduced from [Bai et al., *Computerized Medical Imaging and Graphics* 136 (2026) 102827](https://doi.org/10.1016/j.compmedimag.2026.102827) (`© 2026 Published by Elsevier Ltd. All rights reserved.`) for non-commercial scholarly introduction and are **excluded** from the MIT License; illustrative public-dataset thumbnails in Figs. 4 & 7 credit BreastMNIST/MedMNIST (Yang et al., 2023, CC BY 4.0), BUSI (Al-Dhabyani et al., 2020, CC BY 4.0), and Brain Tumor MRI (Bhuvaji et al., 2020, CC0).
+- **Correspondence**: Please refer to the [official ScienceDirect article page](https://doi.org/10.1016/j.compmedimag.2026.102827) for corresponding author contact details.

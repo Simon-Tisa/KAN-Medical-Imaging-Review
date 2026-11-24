@@ -29,7 +29,7 @@
 
 <div align="center">
   <img src="assets/paper_figures/fig4_review_overview.png" alt="Fig. 4 — 综述五维全景框架图" width="100%" />
-  <p><em><strong>论文原图 Fig. 4（研究全景框架）：</strong>从表示理论与架构定位、模块化 KAN 工具箱（A–D）、核心医学影像任务应用，到评估/可解释性/部署规范与未来可检验研究方向。</em></p>
+  <p><em><strong>论文原图 Fig. 4（研究全景框架）：</strong>从表示理论与架构定位、模块化 KAN 工具箱（A–D）、核心医学影像任务应用，到评估/可解释性/部署规范与未来可检验研究方向（示意缩略图源自公开数据集 MedMNIST/BreastMNIST、BUSI 与 Brain Tumor MRI；源自 Bai et al., CMIG 136 (2026) 102827, © 2026 Elsevier Ltd.，仅作非商业学术导读展示，不包含在代码 MIT 协议内）。</em></p>
 </div>
 
 ### 30 秒速览核心结论

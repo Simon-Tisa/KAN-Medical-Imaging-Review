@@ -1,4 +1,10 @@
-MIT License (Code & Visualization Scripts)
+================================================================================
+PART 1: SOFTWARE, INTERACTIVE PORTAL CODE & CUSTOM SCRIPTS — MIT LICENSE
+Applies to: scripts/*, docs/index.html, docs/assets/css/*, docs/assets/js/*,
+and custom programmatic SVG charts in assets/figures/*.svg
+================================================================================
+
+MIT License
 
 Copyright (c) 2026 Jieyun Bai, Zhongguo Cai, Rongshun Yang, Karim Lekadir, and Shuo Li
 
@@ -20,11 +26,37 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+================================================================================
+PART 2: EXTRACTED RESEARCH DATA & AUDIT LEDGERS (data/S1–S4, docs/assets/data/*)
+================================================================================
 
-Data & Attribution Notice:
-The structured supplementary evidence tables (`data/S1`–`S4`) accompany:
-J. Bai, Z. Cai, R. Yang, K. Lekadir, and S. Li, "A review of Kolmogorov–Arnold networks
-for medical image analysis," Computerized Medical Imaging and Graphics, vol. 136, 102827, 2026.
-DOI: https://doi.org/10.1016/j.compmedimag.2026.102827
-Please cite the original article when reusing the curated datasets, taxonomy, or figures.
+The structured evidence matrices and screening ledgers (`data/S1`–`S4`) constitute
+underlying research data accompanying the Data Availability statement of:
+
+  J. Bai, Z. Cai, R. Yang, K. Lekadir, and S. Li, "A review of Kolmogorov–Arnold
+  networks for medical image analysis," Computerized Medical Imaging and Graphics,
+  vol. 136, 102827, 2026. https://doi.org/10.1016/j.compmedimag.2026.102827
+
+Reuse of the curated datasets and taxonomy in scholarly work is permitted with
+proper citation to the original article above.
+
+================================================================================
+PART 3: PUBLISHED ARTICLE FIGURES — EXCLUDED FROM MIT LICENSE
+Applies to: assets/paper_figures/* and docs/assets/figures/fig*.png
+================================================================================
+
+IMPORTANT NOTICE: The figures located in `assets/paper_figures/` (and mirrored in
+`docs/assets/figures/fig*.png`) are NOT covered by the MIT License above.
+
+- Copyright (c) 2026 Published by Elsevier Ltd. All rights reserved.
+- Reproduced by the authors solely for non-commercial scholarly introduction of:
+  Bai et al., Computerized Medical Imaging and Graphics 136 (2026) 102827
+  (https://doi.org/10.1016/j.compmedimag.2026.102827).
+- Any third-party commercial reuse, redistribution, or republication of these
+  article figures requires prior permission from Elsevier Ltd. (via RightsLink
+  on ScienceDirect).
+- Illustrative medical image thumbnails within Figs. 4 and 7 are adapted from
+  publicly available datasets cited in the article captions: BreastMNIST /
+  MedMNIST v2 (Yang et al., Sci. Data 2023, CC BY 4.0), BUSI Breast Ultrasound
+  Dataset (Al-Dhabyani et al., Data in Brief 2020, CC BY 4.0), and Brain Tumor
+  Classification MRI (Bhuvaji et al., Kaggle 2020, CC0).

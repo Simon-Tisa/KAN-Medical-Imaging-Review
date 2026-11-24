@@ -5,22 +5,18 @@ type: software
 authors:
   - given-names: Jieyun
     family-names: Bai
-    email: baijieyun@jnu.edu.cn
     affiliation: "College of Information Science and Technology, Jinan University, Guangzhou, China"
   - given-names: Zhongguo
     family-names: Cai
-    email: cai30586@gmail.com
     affiliation: "College of Information Science and Technology, Jinan University, Guangzhou, China"
   - given-names: Rongshun
     family-names: Yang
     affiliation: "The Sixth Affiliated Hospital of Jinan University, Dongguan, China"
   - given-names: Karim
     family-names: Lekadir
-    email: karim.lekadir@ub.edu
     affiliation: "ICREA & Artificial Intelligence in Medicine Lab (BCN-AIM), Universitat de Barcelona, Spain"
   - given-names: Shuo
     family-names: Li
-    email: shuo.li11@case.edu
     affiliation: "School of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA"
 preferred-citation:
   type: article
